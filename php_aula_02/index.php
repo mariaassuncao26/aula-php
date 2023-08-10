@@ -28,7 +28,7 @@
 <?php
 
     $heroi = "Hulk";
-    if($heroi == "Hulk"){
+    if($heroi == "Hulk" or $heroi == "hulk"){
         echo "O herói é o Hulk <br> <img src='imgs/hulk.avif' width='250px'>";
     }
     else if($heroi == "Thor"){

@@ -11,31 +11,73 @@
 <?php
 
     $universo = "DC";
+    $heroi = "Mulher Maravilha"
+    $qtd_heroi = 5;
 
     if($universo == "Marvel"){
-        echo "<img src='imgs/hulk.avif' width='250px'><br>";
-        echo "<img src='imgs/1.jpg' width='250px'><br>";
-        echo "<img src='imgs/2.jpg' width='250px'><br>";
-        echo "<img src='imgs/3.webp' width='250px'><br>";
-        echo "<img src='imgs/4.webp' width='250px'><br>";
-        echo "<img src='imgs/5.webp' width='250px'><br>";
-        echo "<img src='imgs/6.webp' width='250px'><br>";
-        echo "<img src='imgs/7.webp' width='250px'><br>";
-        echo "<img src='imgs/8.jpg' width='250px'><br>";
-        echo "<img src='imgs/9.jpg' width='250px'><br>";
+        if($heroi == "Hulk"){
+            for($x=1;$x<=$qtd_heroi;$x++){
+                echo "<img src='imgs/hulk.avif' width='250px'>";
+            }  
+        }
+        else if($heroi == "Thor"){
+            for($x=1;$x<=$qtd_heroi;$x++){
+                echo "<img src='imgs/1.jpg' width='250px'>";
+            }
+        }
+        else if($heroi == "Pantera Negra"){
+            for($x=1;$x<=$qtd_heroi;$x++){
+                echo "<img src='imgs/4.webp' width='250px'>";
+            }
+        }
+        else if($heroi == "Groot"){
+            for($x=1;$x<=$qtd_heroi;$x++){
+                echo "<img src='imgs/6.webp' width='250px'>";
+            }
+        }
+        else if($heroi == "Homem Aranha"){
+            for($x=1;$x<=$qtd_heroi;$x++){
+                echo "<img src='imgs/3.webp' width='250px'>";
+            }
+        }
+        else{
+            echo "Herói inexistente!";
+        }
     }
 
     else if($universo == "DC"){
-        echo "<img src='imgs/1dc.webp' width='250px'><br>";
-        echo "<img src='imgs/2dc.webp' width='250px'><br>";
-        echo "<img src='imgs/3dc.webp' width='250px'><br>";
-        echo "<img src='imgs/4dc.webp' width='250px'><br>";
-        echo "<img src='imgs/5dc.webp' width='250px'><br>";
-        echo "<img src='imgs/6dc.webp' width='250px'><br>";
-        echo "<img src='imgs/7dc.webp' width='250px'><br>";
-        echo "<img src='imgs/8dc.webp' width='250px'><br>";
-        echo "<img src='imgs/9dc.webp' width='250px'><br>";
-        echo "<img src='imgs/10dc.webp' width='250px'><br>";
+        if($heroi == "Mulher Maravilha"){
+            for($x=1;$x<=$qtd_heroi;$x++){
+                echo "<img src='imgs/3dc.webp' width='250px'>";
+            }  
+        }
+        else if($heroi == "Shazam"){
+            for($x=1;$x<=$qtd_heroi;$x++){
+                echo "<img src='imgs/2dc.webp' width='250px'>";
+            }
+        }
+        else if($heroi == "Super Homem"){
+            for($x=1;$x<=$qtd_heroi;$x++){
+                echo "<img src='imgs/4dc.webp' width='250px'>";
+            }
+        }
+        else if($heroi == "Flash"){
+            for($x=1;$x<=$qtd_heroi;$x++){
+                echo "<img src='imgs/Flash.webp' width='250px'>";
+            }
+        }
+        else if($heroi == "Batman"){
+            for($x=1;$x<=$qtd_heroi;$x++){
+                echo "<img src='imgs/batman.jpg' width='250px'>";
+            }
+        }
+        else{
+            echo "Herói inexistente!";
+        }
+    }
+
+    else{
+        echo "Universo inexistente!";
     }
 
 ?>
