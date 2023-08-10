@@ -1,3 +1,13 @@
 body{
     background-color: rgb(0, 0, 0);
 }
+
+.t{
+    color:#ffffff;
+    font-size: x-large;
+}
+
+#i{
+    border: 1px #752dd4 solid;
+    margin: 50px 4vh;
+}
