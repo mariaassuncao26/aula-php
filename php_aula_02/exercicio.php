@@ -11,7 +11,7 @@
 <?php
 
     $universo = "DC";
-    $heroi = "Mulher Maravilha"
+    $heroi = "Mulher Maravilha";
     $qtd_heroi = 5;
 
     if($universo == "Marvel"){
@@ -81,6 +81,7 @@
     }
 
 ?>
+
 <script src="js/script.js"></script>
 <a href="index.php">Voltar</a>
 
