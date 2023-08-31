@@ -23,15 +23,7 @@
 
             <option value="thor">Thor</option>
             <option value="ha">Homem-Aranha</option>
-            <option value="hulk">Hulk</option>
-            <option value="groot">Groot</option>
-            <option value="pn">Pantera Negra</option>
-        
-            <option value="s">Shazam</option>
-            <option value="mm">Mulher-Maravilha</option>
-            <option value="batman">Batman</option>
-            <option value="flash">Flash</option>
-            <option value="Sh">Super-Homem</option>
+
 
         </select>  
             <br>
