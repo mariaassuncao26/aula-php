@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="fundo">
 <?php
 
     $varUniverso = $_POST["Universo"];
@@ -78,6 +78,7 @@
     }
 
 ?>
+</div>
 
 </body>
 </html>

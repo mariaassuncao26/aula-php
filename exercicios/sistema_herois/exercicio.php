@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
     <title>Document</title>
 </head>
 <body>
     
+<div class="fundo">
     <form action="back.php" method="post">
 
         <h2>Escolha um universo:</h2>
@@ -41,6 +42,7 @@
 
 
     </form>
+</div>
 
 </body>
 </html>
