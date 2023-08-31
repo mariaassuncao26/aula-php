@@ -10,25 +10,19 @@
     
     <form action="back.php" method="post">
 
-        <h2 class="t">Escolha um universo:</h2>
-        <select name="Universo">
+        <h1 class="t">Fórmula Quadrática</h1>
 
-            <option value="marvel">Marvel</option>
-            <option value="dc">DC</option>
+        <h2 class="t">Digite o valor de a:</h2>
+        <input type="number" name="a">
 
-        </select>
+        <h2 class="t">Digite o valor de b:</h2>
+        <input type="number" name="b">
 
-        <h2 class="t">Escolha um herói:</h2>
-        <select name="Herois">
-
-            <option value="thor">Thor</option>
-            <option value="ha">Homem-Aranha</option>
+        <h2 class="t">Digite o valor de c:</h2>
+        <input type="number" name="c">
 
 
-        </select>  
-            <br>
-
-        <input type="number" name="qtd">
+        <br>
         <input type="submit" value="Enviar">
 
 

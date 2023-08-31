@@ -10,9 +10,20 @@
 
 <?php
 
-    $varUniverso = $_POST["Universo"];
-    $varHeroi = $_POST["Herois"];
-    $varQtd = $_POST["qtd"];
+    $varA = $_POST["a"];
+    $varB = $_POST["b"];
+    $varC = $_POST["c"];
+
+    $varDelta = ($varB ** 2) - 4 * $varA * $varC;
+
+    $varX1 = (-$varB + sqrt($varDelta)) / 2 * $varA;
+    $varX2 = (-$varB - sqrt($varDelta)) / 2 * $varA;
+
+    
+    if($varA == 0){
+        echo "O valor de A não pode ser igual a 0."
+    }
+    
 
 ?>
 

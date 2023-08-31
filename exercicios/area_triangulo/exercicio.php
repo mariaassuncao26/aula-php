@@ -4,31 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../css/style.css" rel="stylesheet" type="text/css">
-    <title>Área do Triângulo</title>
+    <title>Área do Triângulo Retângulo</title>
 </head>
 <body>
     
     <form action="back.php" method="post">
 
-        <h2 class="t">Escolha um universo:</h2>
-        <select name="Universo">
+        <h1 class="t">Área do Triângulo Retângulo</h1>
 
-            <option value="marvel">Marvel</option>
-            <option value="dc">DC</option>
+        <h2 class="t">Digite a base do triângulo:</h2>
+        <input type="number" name="base">
 
-        </select>
+        <h2 class="t">Digite a altura do triângulo:</h2>
+        <input type="number" name="altura">
 
-        <h2 class="t">Escolha um herói:</h2>
-        <select name="Herois">
-
-            <option value="thor">Thor</option>
-            <option value="ha">Homem-Aranha</option>
-
-
-        </select>  
+ 
             <br>
-
-        <input type="number" name="qtd">
         <input type="submit" value="Enviar">
 
 

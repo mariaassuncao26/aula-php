@@ -10,9 +10,15 @@
 
 <?php
 
-    $varUniverso = $_POST["Universo"];
-    $varHeroi = $_POST["Herois"];
-    $varQtd = $_POST["qtd"];
+    $varB = $_POST["base"];
+    $varH = $_POST["altura"];
+    
+
+    $varResultado = ($varB * $varH)/2;
+
+    
+    echo "<h3 class='t'>". $varResultado. "</h3>";
+    
 
 ?>
 
