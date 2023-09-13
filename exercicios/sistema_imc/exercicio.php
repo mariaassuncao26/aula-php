@@ -8,27 +8,18 @@
 </head>
 <body>
     
-    <form action="back.php" method="post">
+        <form action="back.php" method="post">
 
-        <h2 class="t">Escolha um universo:</h2>
-        <select name="Universo">
+        <h1 class="t">Índice de Massa Corporal (IMC)</h1>
 
-            <option value="marvel">Marvel</option>
-            <option value="dc">DC</option>
+        <h2 class="t">Digite o seu peso (em kg): </h2>
+        <input type="number" name="peso">
 
-        </select>
+        <h2 class="t">Digite a sua altura (em cm):</h2>
+        <input type="number" name="altura">
 
-        <h2 class="t">Escolha um herói:</h2>
-        <select name="Herois">
-
-            <option value="thor">Thor</option>
-            <option value="ha">Homem-Aranha</option>
-
-
-        </select>  
+ 
             <br>
-
-        <input type="number" name="qtd">
         <input type="submit" value="Enviar">
 
 
