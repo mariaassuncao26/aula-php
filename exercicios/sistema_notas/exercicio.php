@@ -10,25 +10,11 @@
     
     <form action="back.php" method="post">
 
-        <h2 class="t">Escolha um universo:</h2>
-        <select name="Universo">
+        <h1 class="t">Sistema de Notas</h1>
 
-            <option value="marvel">Marvel</option>
-            <option value="dc">DC</option>
-
-        </select>
-
-        <h2 class="t">Escolha um herói:</h2>
-        <select name="Herois">
-
-            <option value="thor">Thor</option>
-            <option value="ha">Homem-Aranha</option>
-
-
-        </select>  
-            <br>
-
-        <input type="number" name="qtd">
+        <h2 class="t">Digite a nota do aluno</h2>
+        <input type="number" name="nota">
+ 
         <input type="submit" value="Enviar">
 
 
