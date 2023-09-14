@@ -16,11 +16,13 @@
 
     $varImc = $varPeso / ($varAltura ** 2);
 
+    echo "<h3 class = 't'> ". $varImc. "</h3>";
+
     if($varImc < 16){
-        echo "<h3 class='t'> Magreza Grave. </h3>";
+        echo "<h3 class='t'> Magreza Extrema. </h3>";
     }
     else if($varImc >= 16 && $varImc < 17){
-        echo "<h3 class='t'> Magreza Moderada. </h3>";
+        echo "<h3 class='t'> Magreza Média. </h3>";
     }
     else if($varImc >= 17 && $varImc < 18.5){
         echo "<h3 class='t'> Magreza Leve. </h3>";
@@ -35,7 +37,7 @@
         echo "<h3 class='t'> Obesidade Grau 1. </h3>";
     }
     else if($varImc >= 35 && $varImc < 40){
-        echo "<h3 class='t'> Obesidade Grau 2 (severa). </h3>";
+        echo "<h3 class='t'> Obesidade Grau 2. </h3>";
     }
     else{
         echo "<h3 class='t'> Obesidade Grau 3 (mórbida). </h3>";

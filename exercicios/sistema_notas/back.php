@@ -13,17 +13,17 @@
     $varNota = $_POST["nota"];
 
     if($varNota <= 4){
-        echo "<h3 class='t' Instisfatório (Menção I). </h3>";
+        echo "<h3 class='t'> Instisfatório (Menção I). </h3>";
     }
     else if($varNota <= 6){
-        echo "<h3 class='t' Regular (Menção R). </h3>";
+        echo "<h3 class='t'> Regular (Menção R). </h3>";
     }
 
     else if($varNota <= 8){
-        echo "<h3 class='t' Bom (Menção B). </h3>";
+        echo "<h3 class='t'> Bom (Menção B). </h3>";
     }
     else if($varNota <= 10){
-        echo "<h3 class='t' Muito Bom (Menção MB). </h3>";
+        echo "<h3 class='t'> Muito Bom (Menção MB). </h3>";
     }
 
 
